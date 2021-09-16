@@ -23,8 +23,8 @@ chelsea = User.create(
 
 gina = User.create(
 
-    name: "Gina", 
-    artist_img: "https://img.buzzfeed.com/buzzfeed-static/static/2018-11/13/11/campaign_images/buzzfeed-prod-web-02/who-would-be-your-hormone-monster-2-31941-1542125976-1_dblbig.jpg?resize=1200:*"
+    name: "Gina",   
+    artist_img: "https://i1.sndcdn.com/artworks-000434091828-678o6d-t500x500.jpg"
 
 )
 
@@ -43,7 +43,7 @@ sobaata = User.create(
 alicia = User.create(
 
     name: "Alicia",
-    artist_img: "https://ca.slack-edge.com/T02MD9XTF-U024JTQTK2B-65bb51cc6fc5-192"
+    artist_img: "https://image.shutterstock.com/image-vector/software-design-over-white-background-260nw-277083728.jpg"
 )
 
 
