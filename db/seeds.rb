@@ -1,6 +1,8 @@
 puts "🌱 Seeding spices..."
 
-# Seed your database here
+# Seed your database here\
+
+puts "Seeding Users..."
 
 aidah = User.create(
 
@@ -34,5 +36,22 @@ alicia = User.create(
 )
 
 
+puts "Seeding Products"
+
+mascara = Product.create(
+    name: "L'Oreal Voluminous Mascara",
+    image: "https://m.media-amazon.com/images/I/614mTDXXMCL._SX679_.jpg",
+    price: 6,
+    description: "Essential",
+     
+)
+
+mascara2 = Product.create(
+    name: "L'Oreal Voluminous Mascara",
+    image: "https://m.media-amazon.com/images/I/614mTDXXMCL._SX679_.jpg",
+    price: 6,
+    description: "Essential",
+     
+)
 
 puts "✅ Done seeding!"

@@ -4,4 +4,6 @@ class UserController < ApplicationController
         User.all.to_json
 
     end
+
+
 end
